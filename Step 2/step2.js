@@ -21,3 +21,16 @@ colours.forEach((item, index) => {
   // item = colour
   console.log(`${index}: ${item}`);
 });
+
+// Map
+// Different to forEach, as map transforms each element of an array and creates a new array with the results
+// It returns a new array, and leaves the original unchanges
+// Also takes a callback function, and the return value of the callback function is used to create the new array
+
+const numbers = [2, 4, 6, 8, 10];
+
+const squaredNumbers = numbers.map((number) => {
+  return number * number;
+});
+console.log(`numbers = ${numbers}`);
+console.log(`squaredNumbers = ${squaredNumbers}`);
