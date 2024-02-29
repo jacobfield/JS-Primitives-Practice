@@ -34,3 +34,15 @@ const squaredNumbers = numbers.map((number) => {
 });
 console.log(`numbers = ${numbers}`);
 console.log(`squaredNumbers = ${squaredNumbers}`);
+// original array remains the same, but the new array has the callback function applied to each element in it
+
+//Filter
+// filter is used for creating a new array with the elements that satisfy a certain condition
+// it returns a new array containing only the elements for which the callback function returns textUnderlinePosition:
+
+const numArr = [1, 2, 3, 50, 100, 200, 300];
+const filtNumArr = numArr.filter((number) => {
+  return number >= 50;
+});
+console.log(`numArr = ${numArr}`);
+console.log(`filtNumArr = ${filtNumArr}`);
