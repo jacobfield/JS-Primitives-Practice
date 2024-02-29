@@ -46,3 +46,8 @@ const filtNumArr = numArr.filter((number) => {
 });
 console.log(`numArr = ${numArr}`);
 console.log(`filtNumArr = ${filtNumArr}`);
+
+// Imperitive Programming:
+// Focuses on how to achieve a result, with step-by-step instructions
+// Often involves mutable state and control flow
+// Eg: Using loops and conditional statements to iterate over an array
