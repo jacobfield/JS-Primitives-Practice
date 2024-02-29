@@ -51,3 +51,9 @@ console.log(`filtNumArr = ${filtNumArr}`);
 // Focuses on how to achieve a result, with step-by-step instructions
 // Often involves mutable state and control flow
 // Eg: Using loops and conditional statements to iterate over an array
+//
+
+// Declarative Style
+// Focuses on what result is desired without specifying how to achieve it
+// utilises higher-order functions and abstracts away implementation details
+//EG: Using 'forEach', 'map' and 'filter' to express the desired outcome without explicitally detailing the iteration process.
