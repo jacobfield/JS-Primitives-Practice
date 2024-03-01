@@ -46,3 +46,11 @@ const fruits = [
 ];
 const fruitSubset = fruits.slice(1, 4);
 console.log(`New Fruits = ${fruitSubset}`);
+
+// SPLICE
+// splice method modifys the contents of an array by adding, removing, or replacing existing elements.
+// Takes 3 parameters, the starting index, the number of elements to remove, and optional elements to add
+const spliceNums = [1, 2, 3, 4, 5];
+spliceNums.splice(2, 1, 100);
+console.log(`spliced num array = ${spliceNums}`);
+// this will start at index 2, remove 1 element, and insert '100' in its place
