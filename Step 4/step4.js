@@ -59,4 +59,5 @@ console.log(`spliced num array = ${spliceNums}`);
 
 // Example scenario for 'slice': If you requiure a certain range of indexes from an array, slice allows you to extract those elements and create a new array using the extracted data
 
+//
 //When to use 'splice' instead of 'slice': splice is for when you need to edit information inside of an array, slice is when you want to make a copy of a certain section of an array.
