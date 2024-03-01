@@ -54,6 +54,8 @@ console.log(user3);
 // findIndex is used to search arrays. It returns the index of the first element that satisfies the given condition; if none is found, it returns -1.
 //Use cases: Finding the position of an item & validating array elements
 const numbers = [10, 20, 30, 40, 50];
-const index = numbers.findIndex((num) => num > 25);
-console.log(`Index = ${index}`);
-// array.findIndex(())
+const index = numbers.findIndex((num) => num === 40);
+console.log(`Index = ${index}`); // will return index 3.
+// array.findIndex((num))
+//'num' = individual element in array to apply condition to
+//
