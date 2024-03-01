@@ -56,3 +56,7 @@ console.log(`spliced num array = ${spliceNums}`);
 // this will start at index 2, remove 1 element, and insert '100' in its place
 
 // Difference between some and every: Some returns true is at least one element satisfies the condition, or returns false. Every requires every element to satisfy the condition, else returns false
+
+// Example scenario for 'slice': If you requiure a certain range of indexes from an array, slice allows you to extract those elements and create a new array using the extracted data
+
+//When to use 'splice' instead of 'slice': splice is for when you need to edit information inside of an array, slice is when you want to make a copy of a certain section of an array.
