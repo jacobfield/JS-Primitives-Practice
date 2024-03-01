@@ -59,3 +59,9 @@ console.log(`Index = ${index}`); // will return index 3.
 // array.findIndex((num))
 //'num' = individual element in array to apply condition to
 //
+
+// 1) Explain the role of the accumulator in reduce: Accumulator is the current value, after the condition has been applied to the current iteration. It stores this value throughout iterations through the array.
+
+// 2) Example of using find to search for an object in an array: When searching for a particular name in a phonebook array
+
+// 3) How does findIndex behave when the element is not found? It returns '-1' when the desired element is not present, indicating the element was not found
