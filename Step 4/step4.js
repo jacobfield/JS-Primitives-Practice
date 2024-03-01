@@ -30,3 +30,19 @@ const evenNumbers = [2, 4, 6, 8, 10];
 const allEven = evenNumbers.every((num) => num % 2 === 0);
 console.log(`Are they all even? ${allEven}`);
 // will return true.
+
+//SLICE
+// Slice method creats a shallow copy of a portion of an array. takes two parameters, the starting index and the ending index, and returns a new array containing elements from the original array within that range.
+
+// slice essentially extracts a portion of the array, between the two indexes inputted as parameters.
+const fruits = [
+  "apple",
+  "banana",
+  "coconut",
+  "grape",
+  "melon",
+  "watermelon",
+  "kiwi",
+];
+const fruitSubset = fruits.slice(1, 4);
+console.log(`New Fruits = ${fruitSubset}`);
