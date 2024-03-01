@@ -57,3 +57,21 @@ console.log(`filtNumArr = ${filtNumArr}`);
 // Focuses on what result is desired without specifying how to achieve it
 // utilises higher-order functions and abstracts away implementation details
 //EG: Using 'forEach', 'map' and 'filter' to express the desired outcome without explicitally detailing the iteration process.
+
+//How is map Different from forEach?
+
+// map is used for transforming each element and creating a new array with the results.
+// It returns a new array, while forEach does not return anything.
+// forEach is typically used for side effects, while map is used when a new array is needed with transformed elements.
+
+//Explain the Purpose of the Callback Function in forEach:
+
+// The callback function in forEach specifies the action to be taken on each element during iteration.
+// It allows customization of the behavior for each element in the array.
+// Common use cases include logging, updating external variables, or performing side effects.
+
+// When Would You Use filter Instead of forEach?
+
+// Use filter when you want to create a new array containing only elements that satisfy a specified condition.
+// forEach is used for general iteration without creating a new array.
+// If you need to selectively include elements based on a condition, filter is the appropriate choice.
