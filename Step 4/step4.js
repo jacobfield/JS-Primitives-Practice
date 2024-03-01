@@ -22,3 +22,11 @@ const numbers = [1, 2, 3, 4, 5];
 const hasEven = numbers.some((num) => num % 2 === 0);
 console.log(hasEven);
 // returns 'true', as conditions are met
+
+//EVERY
+// Every is similar to 'some', but checks that all elemments satisfy that condition
+
+const evenNumbers = [2, 4, 6, 8, 10];
+const allEven = evenNumbers.every((num) => num % 2 === 0);
+console.log(`Are they all even? ${allEven}`);
+// will return true.
