@@ -46,3 +46,15 @@ function add(a, b) {
   return a + b;
 }
 console.log(add(3, 6)); // will return 9
+
+// EZAMPLE OF 'MAP' TO TRANSFORM AN ARRAY OF OBJECTS:
+// scenario: transform an array of objects representing people into an array of their names
+const people = [
+  { id: 1, name: "Jacob" },
+  { id: 2, name: "Mollie" },
+  { id: 3, name: "Nicola" },
+  { id: 4, name: "Camille" },
+];
+// mapping through array, creating new array by applying the method to it
+const names = people.map((person) => person.name);
+console.log(names);
