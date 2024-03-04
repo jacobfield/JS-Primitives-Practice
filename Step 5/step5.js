@@ -58,3 +58,10 @@ const people = [
 // mapping through array, creating new array by applying the method to it
 const names = people.map((person) => person.name);
 console.log(names);
+
+// Advantages of Functional Programming:
+// 1) Code readability: - emphasises declarative and expressive code, making it easier to understand and maintain
+// 2) Maintainability: Immutability reduces the chance of unexpected side effects, making it easier to maintain and extend code.
+// 3) Testability: Functions with no side effects are easier to test, since their behaviour is determined by their input only.
+
+// Functional programming provides a paradigm that promotes cleaner, more modular, and easily testable code. Understanding and applying these principles can lead to more robust and scalable JS apps.
