@@ -9,6 +9,14 @@
 // How do higher-order functions differ from regular functions?
 // Provide an example of using map to transform an array of objects.
 
+//ARROW FUNCTION
+// Syntax:
+const functionName = (parameter1, parameter2) => {
+  // Function body
+  return parameter1 + parameter2;
+  // Return statement if needed
+};
+
 // IMMUTABILITY
 //Immutability is a key principle in functional programming that emphasises the importance of not modifying data once it has been created. Once defined, variables cannot be changed. Instead of modifying original ones, create new ones.
 //Importance of Immutability:
@@ -19,6 +27,15 @@
 // HIGHER ORDER FUNCTIONS VS. REGULAR FUNCTIONS:
 //HOF: Functions that take one or more functions as arguments, or return a function
 // EG:
-const multiplyBy = (factor) => (num) => num * factor;
+
+const multiplyBy = function (factor) {
+  return function (num) {
+    return num * factor;
+  };
+};
+// written using arrow functions
+const multiplicationExample = (factorToMultiplyBy) => (number) =>
+  number * factorToMultiplyBy;
+
 const double = multiplyBy(2);
 console.log(double(5));
