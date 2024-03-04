@@ -39,3 +39,10 @@ const multiplicationExample = (factorToMultiplyBy) => (number) =>
 
 const double = multiplyBy(2);
 console.log(double(5));
+// will return 10
+
+//REGULAR FUNCTION:
+function add(a, b) {
+  return a + b;
+}
+console.log(add(3, 6)); // will return 9
