@@ -25,8 +25,14 @@ reverse(arrToReverse);
 const duplicatesArr = ["apple", "banana", "cucumber", "apple"];
 
 function removeDuplicates(removeFromArray) {
-  for (let i = 0; i <= removeFromArray.length; i++) {}
+  let checkArr = [];
+  for (let i = 0; i < removeFromArray.length; i++) {
+    if (!checkArr.includes(removeFromArray[i])) {
+      checkArr.push(removeFromArray[i]);
+    }
+  }
+  console.log(checkArr);
 }
-
+removeDuplicates(duplicatesArr);
 //increment through array
-// if there
+// create new array, and add removeFromArray[i] to that array, unless it includes(removeFromArray[i])
